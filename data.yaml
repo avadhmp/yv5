@@ -1,0 +1,16 @@
+
+weight: "weights/last.pt"
+
+
+input_size: 640
+
+class_num:  91
+
+class_name: ['0', '1', '10', '11', '15', '2', '3', '4', '5', '6', '7', '8', '9', 'bvalve_0', 'bvalve_10', 'bvalve_100', 'bvalve_110', 'bvalve_120', 'bvalve_130', 'bvalve_140', 'bvalve_150', 'bvalve_160', 'bvalve_170', 'bvalve_180', 'bvalve_190', 'bvalve_20', 'bvalve_200', 'bvalve_210', 'bvalve_220', 'bvalve_230', 'bvalve_240', 'bvalve_250', 'bvalve_260', 'bvalve_270', 'bvalve_280', 'bvalve_290', 'bvalve_30', 'bvalve_300', 'bvalve_310', 'bvalve_320', 'bvalve_330', 'bvalve_340', 'bvalve_350', 'bvalve_40', 'bvalve_50', 'bvalve_60', 'bvalve_70', 'bvalve_80', 'bvalve_90', 'leftswitch_down', 'leftswitch_up', 'middleswitch_down', 'middleswitch_up', 'rightswitch_down', 'rightswitch_up', 'valve_0', 'valve_10', 'valve_100', 'valve_110', 'valve_120', 'valve_130', 'valve_140', 'valve_150', 'valve_160', 'valve_170', 'valve_180', 'valve_190', 'valve_20', 'valve_200', 'valve_210', 'valve_220', 'valve_230', 'valve_240', 'valve_250', 'valve_260', 'valve_270', 'valve_280', 'valve_290', 'valve_30', 'valve_300', 'valve_310', 'valve_320', 'valve_330', 'valve_340', 'valve_350', 'valve_40', 'valve_50', 'valve_60', 'valve_70', 'valve_80', 'valve_90']
+
+
+threshold:
+  iou: 0.6
+  confidence: 0.85
+
+device: '0'
